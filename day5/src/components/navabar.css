@@ -1,0 +1,46 @@
+/* navbar.css */
+
+/* Container for the navbar */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Left section of the navbar */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Application title */
+  .app-title {
+    font-weight: bold;
+    color: #333; /* Dark color */
+  }
+  
+  /* Center section of the navbar */
+  .navbar-center {
+    display: flex;
+  }
+  
+  /* Right section of the navbar */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for user menu */
+  .navbar-user-menu {
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Button styles */
+  .navbar-button {
+    color: #333; /* Dark color */
+  }
+  
+  .navbar-button:hover {
+    color: #e74c3c; /* Highlight color */
+  }
+  
