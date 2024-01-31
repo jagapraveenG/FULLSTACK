@@ -1,0 +1,77 @@
+/* AboutPage.css */
+
+.AboutPage {
+    font-family: Arial, sans-serif;
+  }
+  
+  .Hero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ZU6e-BBV2tL2ThGEnhLZ5O2SJp31gFebVbmXUmM-sScZgCOMOsM1dFfvE-5HC0d8R90&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .HeroContent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .HeroTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .HeroSubtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .SectionTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .StoryAndServices {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Services {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .Services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Services li {
+    margin-bottom: 20px;
+  }
+  
+  .Footer {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .StartJourneyBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .StartJourneyBtn:hover {
+    background-color: #0056b3;
+  }
+  
