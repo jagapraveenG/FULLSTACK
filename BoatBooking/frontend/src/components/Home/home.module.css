@@ -1,0 +1,145 @@
+/* Bootstrap version of home.module.css */
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('https://thecaptain.tv/wp-content/uploads/2017/12/IMGL4046-1080x675.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* About section */
+.about {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.05);
+}
+
+/* Services section */
+.services {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.servicesContent {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.servicesContent h1 {
+    margin-bottom: 20px;
+}
+
+.servicesList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serviceItem {
+    width: calc(25% - 40px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.serviceItem:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.serviceItem img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.serviceItem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+.contact {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactContent {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.contactContent h1 {
+    margin-bottom: 20px;
+}
+
+.contactContent p {
+    margin-bottom: 20px;
+}
+
+.contactDetails {
+    margin-top: 20px;
+}

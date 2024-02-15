@@ -1,0 +1,15 @@
+.animatedpanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.anipan {
+  animation-duration: 1s;
+}
+
+.anipan-but {
+  margin-top: 10px;
+}
+
+/* Add more CSS styles as needed */
